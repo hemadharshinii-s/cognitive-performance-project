@@ -157,6 +157,22 @@ brfss.columns = ["state","cog","age","edu","bmi","smoke","diabetes"]
 brfss = brfss[brfss["cog"].isin([1,2])]
 brfss["cog"] = brfss["cog"].map({1:1,2:0})
 
+state_map = {
+    12: "Florida",
+    16: "Idaho",
+    18: "Indiana",
+    23: "Maine",
+    41: "Oregon",
+    44: "Rhode Island",
+    45: "South Carolina",
+    49: "Utah",
+    50: "Vermont",
+    51: "Virginia",
+    55: "Wisconsin"
+}
+
+brfss["state_name"] = brfss["state_fips"].astype(int).map(state_map)
+
 aqi = pd.read_csv("data/raw/epa/daily_aqi_by_county_2022.csv")[["State Name","AQI"]]
 aqi.columns = ["state","aqi"]
 
