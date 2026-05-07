@@ -9,7 +9,7 @@ It combines multiple large-scale public datasets to:
 
 - Predict cognitive performance (DSST scores) using machine learning
 - Analyze relationships between cognition and health behaviors
-- Study environmental impacts (air quality) at population level
+- Study environmental impacts (air quality) at the population level
 - Validate findings using an external dataset (BRFSS)
 
 The project follows a multi-level analysis approach:
@@ -49,7 +49,7 @@ Run the notebooks sequentially in this order:
 - Population-level comparison plots
 3. **BRFSS_External_Validation.ipynb**
 - BRFSS preprocessing
-- AQI merging at state level
+- AQI merging at the state level
 - Classification models
 - Feature importance analysis
 
