@@ -1,5 +1,5 @@
 # **Predicting Cognitive Performance and Environmental Influences**
-CS 210: Data Management for Data Science
+CS 210: Data Management for Data Science\
 Students: Hemadharshinii Sendhilvel (hs1244)
 
 ## **Project Overview**
