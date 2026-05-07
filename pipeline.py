@@ -152,7 +152,7 @@ brfss = pd.read_csv("data/raw/brfss/brfss_sample.csv")
 
 brfss = brfss[["_STATE","CIMEMLOS","_AGEG5YR","EDUCA","_BMI5","SMOKE100","DIABETE4"]]
 
-brfss.columns = ["state","cog","age","edu","bmi","smoke","diabetes"]
+brfss.columns = ["state_fips","cog","age","edu","bmi","smoke","diabetes"]
 
 brfss = brfss[brfss["cog"].isin([1,2])]
 brfss["cog"] = brfss["cog"].map({1:1,2:0})
