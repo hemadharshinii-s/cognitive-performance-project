@@ -162,7 +162,12 @@ aqi.columns = ["state","aqi"]
 
 aqi = aqi.groupby("state").mean().reset_index()
 
-merged = brfss.merge(aqi,on="state",how="left")
+merged = brfss.merge(
+    aqi,
+    left_on = "state_name",
+    right_on = "state",
+    how = "left"
+)
 
 features = ["aqi","age","edu","bmi","smoke","diabetes"]
 
