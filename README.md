@@ -1,5 +1,4 @@
-# **Cognitive Performance and Environmental Exposure:**
-# **A Multi-Level Data Analysis Using NHANES, EPA, and BRFSS Data**
+# **Cognitive Performance and Environmental Exposure: A Multi-Level Data Analysis Using NHANES, EPA, and BRFSS Data**
 CS 210: Data Management for Data Science\
 Students: Hemadharshinii Sendhilvel (hs1244)
 
