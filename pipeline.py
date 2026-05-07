@@ -148,7 +148,7 @@ print(cycle_summary_df)
 # 5. BRFSS + AQI EXTERNAL VALIDATION (CLASSIFICATION)
 # =========================================================
 
-brfss = pd.read_sas("data/raw/brfss/brfss_sample.csv")
+brfss = pd.read_csv("data/raw/brfss/brfss_sample.csv")
 
 brfss = brfss[["_STATE","CIMEMLOS","_AGEG5YR","EDUCA","_BMI5","SMOKE100","DIABETE4"]]
 
