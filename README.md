@@ -22,14 +22,14 @@ The project follows a multi-level analysis approach:
 
 ### **Datasets Used**
 
-#### **NHANES 2011-2012 & 2013–2014**
+#### **NHANES (2011-2012 & 2013–2014)**
 - Cognitive performance (DSST score)
 - Demographics: age, gender, education
 - Health: BMI, smoking status, physical activity
 #### **EPA Air Quality Data (2011–2014 & 2022)**
 - Daily AQI measurements
 - Aggregated to yearly and state-level averages
-#### **BRFSS 2022**
+#### **BRFSS (2022)**
 - Self-reported cognitive impairment
 - Health and demographic indicators
 - State-level aggregation
