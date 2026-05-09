@@ -2,7 +2,7 @@
 CS 210: Data Management for Data Science\
 Hemadharshinii Sendhilvel (hs1244)
 
-Please reference the project report for a complete and in-depth start-to-end overview of the project (including project focus, datasets used, methodology and pipelines, analyses, limitations, conclusions, and future work).
+**NOTE:** Please reference the project report for a complete and in-depth start-to-end overview of the project (including project focus, datasets used, methodology and pipelines, analyses, limitations, conclusions, and future work).
 
 ## **Project Overview**
 This project investigates how cognitive performance is influenced by demographic, behavioral, health, and environmental factors.
