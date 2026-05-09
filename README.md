@@ -46,7 +46,7 @@ Then, run the notebooks sequentially in this order:
 - Data cleaning (NHANES datasets)
 - Feature engineering
 - SQL-based merging
-- EDA + visualization
+- Exploratory data analysis with visualization
 - Machine learning models (regression)
 2. **02_exploring_cognitive_performance_population_trends.ipynb**
 - NHANES multi-cycle aggregation
