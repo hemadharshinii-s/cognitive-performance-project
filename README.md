@@ -33,9 +33,12 @@ The project follows a multi-level analysis approach:
 - State-level aggregation
 
 ## **How to Run the Project**
-This project was developed and tested in Codebench using Jupyter notebooks.
+This project was developed and tested in Codebench using Jupyter notebooks.\
+All notebook files uploaded on GitHub contain cell outputs and can be fully viewed as-is.
 
-Run the notebooks sequentially in this order: 
+Alternatively, notebooks can be run on Codebench.\
+Upload all data files and notebooks (retaining folder structures) to Codebench.\
+Then, run the notebooks sequentially in this order: 
 
 1. **NHANES_Individual_Analysis.ipynb**
 - Data cleaning (NHANES datasets)
