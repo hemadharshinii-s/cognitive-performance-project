@@ -1,6 +1,6 @@
 # **Cognitive Performance and Environmental Exposure: A Multi-Level Data Analysis Using NHANES, EPA, and BRFSS Data**
 CS 210: Data Management for Data Science\
-Students: Hemadharshinii Sendhilvel (hs1244)
+Hemadharshinii Sendhilvel (hs1244)
 
 ## **Project Overview**
 This project investigates how cognitive performance is influenced by demographic, behavioral, health, and environmental factors.
