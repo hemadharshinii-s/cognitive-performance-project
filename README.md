@@ -46,12 +46,12 @@ Then, run the notebooks sequentially in this order:
 - Data cleaning (NHANES datasets)
 - Feature engineering
 - SQL-based merging
-- Exploratory data analysis with visualization
-- Machine learning models (regression)
+- Exploratory data analysis with visualizations
+- Machine learning models
 2. **02_exploring_cognitive_performance_population_trends.ipynb**
 - NHANES multi-cycle aggregation
 - EPA AQI processing (2011–2014)
-- Population-level comparison plots
+- Population-level comparison
 3. **03_validating_cognitive_performance_external.ipynb**
 - BRFSS preprocessing
 - AQI merging at the state level
